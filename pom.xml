@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>edu.softwareengineering</groupId>
+    <artifactId>generador</artifactId>
+    <version>0.1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
+
+    <name>generador</name>
+    <description>
+        PlantUML model viewer and analyzer.
+        Project scaffold only: Clean Architecture skeleton with a pure Core.
+        No business logic, no frameworks, no third-party dependencies yet.
+    </description>
+
+    <properties>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <!--
+        Intentionally no dependencies at this stage.
+        Infrastructure-specific dependencies (parsing, persistence, rendering,
+        UI framework, etc.) will be added only when those modules are implemented,
+        and only inside the infrastructure/presentation layers - never in core.
+    -->
+</project>
